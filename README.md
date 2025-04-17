@@ -1,7 +1,3 @@
-Aqui está o novo README com a lista de exercícios em inglês e com links clicáveis para os arquivos de cada exercício:
-
----
-
 # My C Learning Journey  
 
 Welcome to my C learning repository! 🖥️  
