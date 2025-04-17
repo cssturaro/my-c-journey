@@ -14,7 +14,11 @@ This repository serves as a personal archive of my C programming progress. It al
 
 ---
 
+#### Some exercises have some limitations on what i can use to code (variables, functions, loops, structs etc.). 
+
 ### 📝 Exercise List
+
+##### \[1 - 14] I can only use printf, scanf, variabels and math operators (+, -, /, %)
 
 1. **Rectangle Area and Perimeter**  
    Given the base and height of a rectangle, calculate its area and perimeter.  
