@@ -5,7 +5,7 @@
 int main(void){
     int num;
 
-    printf("Type an integer: \n> ");
+    printf("Type a whole number: \n> ");
     scanf("%i", &num);
 
     if (num > 0){
