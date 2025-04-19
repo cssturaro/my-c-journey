@@ -1,18 +1,18 @@
-// number -> its module
+// number -> its absolute value
 
 #include <stdio.h>
 
 int main(void){
-    int num;
+    int abs;
 
     printf("Type a whole number: ");
     scanf("%i", &num);
 
     if (num > 0){
-        mod = num;
+        abs = num;
     } else {
-        mod = num + num * -2;
+        abs = num + num * -2;
     }
 
-    printf("Your number module is %i", mod);
+    printf("Your number's absolute value is %i", abs);
 }
