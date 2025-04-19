@@ -82,6 +82,8 @@ A store sells its products using a payment plan: a down payment plus two install
 For example, if the product value is R$ 270.00, the down payment and each installment would be R$ 90.00. If the product value is R$ 302.75, the down payment would be R$ 102.75, and the two installments would be R$ 100.00 each.
 Write a program that receives the total product value and calculates the down payment and the two installments according to these rules. This method helps simplify the creation and payment of the installment invoices.
 
+##### \[21 - 25] I can only use printf, scanf, variabels, math operators (+, -, /, %) and if statements
+
 21. **Positive or Negative Number**
 Read a number and display whether it is positive or negative.
 
