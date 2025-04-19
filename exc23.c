@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(void){
-    int num, mod;
+    int num;
 
     printf("Type a whole number: ");
     scanf("%i", &num);
