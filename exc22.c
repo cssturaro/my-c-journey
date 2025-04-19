@@ -1,4 +1,4 @@
-// number -> your module
+// number -> its module
 
 #include <stdio.h>
 
