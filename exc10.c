@@ -1,3 +1,5 @@
+// int max 32 (non inclusive) -> binary
+
 #include <stdio.h>
 
 int main(void) {
