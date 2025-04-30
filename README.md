@@ -1,4 +1,4 @@
-# My C Learning Journey  .
+# My C Learning Journey  
 
 Welcome to my C learning repository! 🖥️  
 
