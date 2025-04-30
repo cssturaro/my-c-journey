@@ -84,20 +84,15 @@ Write a program that receives the total product value and calculates the down pa
 
 ##### \[21 - 25] I can only use printf, scanf, variabels, math operators (+, -, /, %) and if statements
 
-21. **Positive or Negative Number**
-Read a number and display whether it is positive or negative.
+21. **Positive or Negative Number** Read a number and display whether it is positive or negative.
 
-22. **Absolute Value**
-Read a number and display its absolute value.
+22. **Absolute Value** Read a number and display its absolute value.
 
-23. **Even or Odd Number**
-Read a number and print whether it is even or not.
+23. **Even or Odd Number** Read a number and print whether it is even or not.
 
-24. **Greatest of Three Numbers**
-Read three numbers and display the greatest among them.
+24. **Greatest of Three Numbers** Read three numbers and display the greatest among them.
 
-25. **Days in a Month**
-Read the number corresponding to a month and display the number of days in that month.
+25. **Days in a Month** Read the number corresponding to a month and display the number of days in that month.
 
 26. **Sum of the Two Largest Among Three Values**  
     Read three values and calculate the sum of the two largest ones.  
