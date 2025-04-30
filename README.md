@@ -98,6 +98,31 @@ Read three numbers and display the greatest among them.
 
 25. **Days in a Month**
 Read the number corresponding to a month and display the number of days in that month.
+
+26. **Sum of the Two Largest Among Three Values**  
+    Read three values and calculate the sum of the two largest ones.  
+
+27. **Weighted Average (Greatest Gets Weight 5)**  
+    Read three numbers and calculate their weighted average.  
+    The greatest number receives weight 5, and the other two receive weight 2.5.  
+
+28. **Vowel or Consonant Checker**  
+    Read a letter and display whether it is a vowel or a consonant.  
+
+29. **Social Security Deduction (Max R$ 334.29 or 11%)**  
+    Read an employee’s salary and calculate the social security deduction.  
+    The deduction is 11% of the salary, but it must not exceed R$ 334.29.  
+
+30. **Fuel Discount Calculation**  
+    A gas station applies discounts depending on the type and quantity of fuel:  
+    - Alcohol:  
+      - Up to 25 liters: 2% per liter  
+      - Over 25 liters: 4% per liter  
+    - Gasoline:  
+      - Up to 25 liters: 3% per liter  
+      - Over 25 liters: 5% per liter  
+    Read the fuel type (`A` for alcohol, `G` for gasoline) and the number of liters, then calculate the final price.  
+    Prices: Alcohol = R$ 1.90/liter, Gasoline = R$ 2.70/liter.  
 ---
 
 Feel free to explore each exercise and see how I solved them. 
