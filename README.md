@@ -122,7 +122,17 @@ Write a program that receives the total product value and calculates the down pa
       - Up to 25 liters: 3% per liter  
       - Over 25 liters: 5% per liter  
     Read the fuel type (`A` for alcohol, `G` for gasoline) and the number of liters, then calculate the final price.  
-    Prices: Alcohol = R$ 1.90/liter, Gasoline = R$ 2.70/liter.  
+    Prices: Alcohol = R$ 1.90/liter, Gasoline = R$ 2.70/liter.
+
+31. **QB Rating Calculation**  
+    In American football, the Quarterback Rating is an index used to measure the performance of a quarterback — the higher the rating, the better the performance. It is calculated as follows:
+   First, calculate the percentage of completed passes relative to the number of attempted passes. Subtract 0.3 from this value and divide the result by 0.2. This component must not exceed 2.375 or fall below 0 — if it does, adjust it to 2.375 or 0, respectively.
+   Next, calculate the number of passing yards divided by the number of attempted passes. Subtract 3 from this value and divide the result by 4. Again, clamp the result to be no greater than 2.375 and no less than 0.
+   Then, calculate the number of touchdown passes divided by the number of attempted passes. Divide the result by 0.05. As before, ensure the result stays within the range of 0 to 2.375.
+   Now, calculate the number of intercepted passes divided by the number of attempted passes. Subtract 0.095 from this value and divide the result by 0.04. This component must also be between 0 and 2.375, with adjustments made if necessary.
+   Finally, add the four components calculated above, multiply the total by 100, and divide the result by 6. This gives the Quarterback Rating.
+
+   Write a program that reads the number of attempted passes, completed passes, passing yards, touchdown passes, and intercepted passes, and outputs the quarterback's QB Rating.
 ---
 
 Feel free to explore each exercise and see how I solved them. 
