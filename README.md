@@ -132,6 +132,10 @@ Write a program that receives the total product value and calculates the down pa
    Now, calculate the number of intercepted passes divided by the number of attempted passes. Subtract 0.095 from this value and divide the result by 0.04. This component must also be between 0 and 2.375, with adjustments made if necessary.
    Finally, add the four components calculated above, multiply the total by 100, and divide the result by 6. This gives the Quarterback Rating.
    Write a program that reads the number of attempted passes, completed passes, passing yards, touchdown passes, and intercepted passes, and outputs the quarterback's QB Rating.
+
+32. **Character Classifier**  
+    Write a program that reads a character and determines whether it is a vowel, consonant, digit, or a symbol (any character that is not a letter or a digit).
+
 ---
 
 Feel free to explore each exercise and see how I solved them. 
