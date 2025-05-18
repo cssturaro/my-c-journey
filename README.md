@@ -131,7 +131,6 @@ Write a program that receives the total product value and calculates the down pa
    Then, calculate the number of touchdown passes divided by the number of attempted passes. Divide the result by 0.05. As before, ensure the result stays within the range of 0 to 2.375.
    Now, calculate the number of intercepted passes divided by the number of attempted passes. Subtract 0.095 from this value and divide the result by 0.04. This component must also be between 0 and 2.375, with adjustments made if necessary.
    Finally, add the four components calculated above, multiply the total by 100, and divide the result by 6. This gives the Quarterback Rating.
-
    Write a program that reads the number of attempted passes, completed passes, passing yards, touchdown passes, and intercepted passes, and outputs the quarterback's QB Rating.
 ---
 
