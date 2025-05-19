@@ -136,6 +136,129 @@ Write a program that receives the total product value and calculates the down pa
 32. **Character Classifier**  
     Write a program that reads a character and determines whether it is a vowel, consonant, digit, or a symbol (any character that is not a letter or a digit).
 
+Sure! Here's the **English version** of exercises **33 to 40**, following the same detailed style:
+
+---
+
+33. **Determine the Quadrant of a Point in the Cartesian Plane**
+    Write a program that reads two integer values representing the coordinates $x$ and $y$ of a point on a Cartesian plane. The program must determine and display in which of the four quadrants the point is located, or if it lies on one of the axes or at the origin (when $x = 0$ and $y = 0$).
+    Quadrants are defined as:
+
+* **First quadrant**: $x > 0$ and $y > 0$
+* **Second quadrant**: $x < 0$ and $y > 0$
+* **Third quadrant**: $x < 0$ and $y < 0$
+* **Fourth quadrant**: $x > 0$ and $y < 0$
+
+---
+
+34. **Loan Approval Analysis**
+    A loan company uses two rules to determine whether a loan can be approved:
+ - The total loan amount must be **at most 10 times the applicant’s monthly income**.
+ - The installment amount (total divided by number of installments) must be **no more than 30% of the applicant’s monthly income**.
+
+Write a program that reads:
+
+* The applicant’s monthly income
+* The desired loan amount
+* The number of installments
+
+The program must indicate whether the loan can be granted, based on the rules above.
+
+---
+
+35. **Day of the Week from Number**
+    Write a program that reads an integer between 1 and 7 and displays the corresponding day of the week, where:
+    1 = Sunday
+    2 = Monday
+    3 = Tuesday
+    4 = Wednesday
+    5 = Thursday
+    6 = Friday
+    7 = Saturday
+
+If the entered number is not in the range from 1 to 7, the program should display an error message.
+
+---
+
+36. **Certification Classification Based on 5 Exams**
+    In a certification test, five exams are applied (I, II, III, IV, and V), and the minimum passing grade is **70 points per exam**. Write a program that reads the grades of the five exams and prints the candidate's **classification** according to the rules below:
+
+* **Class A**: Passed all exams (grade ≥ 70 in every exam)
+* **Class B**: Passed exams I, II, and IV, but **did not pass** either III or V
+* **Class C**: Passed exams I and II and passed **at least one** of exams III or IV, but **did not pass** V
+* **Failed**: Any other result
+
+---
+
+37. **Agricultural Spraying Cost Calculation**
+    An agricultural aviation company provides crop spraying services and charges different prices depending on the **type of pest** and the **area (in acres)**, according to the table:
+
+* Type 1: Weeds – R\$ 50.00 per acre
+* Type 2: Locusts – R\$ 100.00 per acre
+* Type 3: Borers – R\$ 150.00 per acre
+* Type 4: All pests above – R\$ 250.00 per acre
+
+Discounts:
+
+* If the area is greater than 1000 acres, the customer receives a **5% discount on the total**
+* If the total cost exceeds R\$ 750.00, an **additional 10% discount** is applied on the amount **above** R\$ 750.00
+  **Note:** If both discounts apply, apply the area discount first.
+
+Write a program that reads:
+
+* The pest type (1 to 4)
+* The area in acres
+  And prints the final amount to be paid.
+
+---
+
+38. **Leap Year Check**
+    A leap year has **366 days** instead of the usual 365, with February having 29 days.
+
+A year is a leap year if:
+
+* It is **divisible by 4**
+* It is **not divisible by 100**, unless it is **also divisible by 400**
+
+Examples of leap years: 1600, 1996, 2000, 2004, 2008, 2012, 2016, 2400, 2800
+Examples of **non-leap years**: 1500, 1974, 1982, 1983, 1990, 2018, 2022, 2030, 2038
+
+Write a program that reads a year and displays whether it is a leap year or not.
+
+---
+
+39. **Check Digit (DV) Calculation Using Modulo 11**
+    A check digit (DV) is used to verify numbers such as bank agency codes. A common method is **Modulo 11**.
+
+### How to calculate the DV:
+
+1. Multiply each digit of the agency number, **from left to right**, by the weights 5, 4, 3, and 2.
+2. Add all the products.
+3. Divide the sum by 11 and get the **remainder**.
+4. Subtract the remainder from 11: $DV = 11 - (sum \mod 11)$
+5. If the result is 10, the DV is represented by the letter **‘X’**.
+
+**Examples:**
+
+* Agency `4870` → (4×5) + (8×4) + (7×3) + (0×2) = 73
+  $73 \mod 11 = 7 → 11 - 7 = 4$ → DV = 4
+* Agency `4881` → (4×5) + (8×4) + (8×3) + (1×2) = 78
+  $78 \mod 11 = 1 → 11 - 1 = 10$ → DV = **X**
+
+Write a program that reads the 4 digits of an agency number and prints the full number in the format `XXXX-DV`.
+
+---
+
+40. **Number to Words (from 1 to 100)**
+    Write a program that reads an integer between **1 and 100** and prints the number **in words**.
+    Examples:
+
+* 1 → “one”
+* 15 → “fifteen”
+* 42 → “forty-two”
+* 100 → “one hundred”
+  If the number is outside the range from 1 to 100, the program should display an error message.
+
 ---
 
 Feel free to explore each exercise and see how I solved them. 
